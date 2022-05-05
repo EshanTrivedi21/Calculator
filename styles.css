@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body{
@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 97.5px);
     grid-template-rows: minmax(100px, auto) repeat(5, 75px);
 }
 
@@ -31,7 +31,7 @@ body{
 
 .calculator-grid > button:hover{
     transition-duration: 0.5s;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(150, 150, 150, 0.1);
 }
 
 .span-two{
@@ -40,26 +40,22 @@ body{
 
 #reset:hover{
     transition-duration: 0.5s;
-    background-color: rgba(0,0,0,.6);
-    color: rgba(255,255,255,1);
+    background-color: rgba(200,0,0,.45);
 }
 
 #delete:hover{
     transition-duration: 0.5s;
-    background-color: rgba(0,0,0,.6);
-    color: rgba(255,255,255,1);
+    background-color: rgba(200,0,0,.45);
 }
 
 #equals:hover{
     transition-duration: 0.5s;
-    background-color: rgba(0,0,0,.6);
-    color: rgba(255,255,255,1);
+    background-color: rgba(0,150,0,.35);
 }
 
 #operation:hover{
     transition-duration: 0.5s;
-    background-color: rgba(0,0,0,.4);
-    color: rgba(255,255,255,0.75);
+    background-color: rgba(0,0,150,.30);
 }
 
 .output{

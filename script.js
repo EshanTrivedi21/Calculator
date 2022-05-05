@@ -36,4 +36,4 @@ const deleteButton = document.querySelector('[data-delete]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
-const calculator = new Calculator(previousOperandTextElement, currentOperand )
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
