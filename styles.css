@@ -30,11 +30,36 @@ body{
 }
 
 .calculator-grid > button:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .span-two{
     grid-column: span 2;
+}
+
+#reset:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(0,0,0,.6);
+    color: rgba(255,255,255,1);
+}
+
+#delete:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(0,0,0,.6);
+    color: rgba(255,255,255,1);
+}
+
+#equals:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(0,0,0,.6);
+    color: rgba(255,255,255,1);
+}
+
+#operation:hover{
+    transition-duration: 0.5s;
+    background-color: rgba(0,0,0,.4);
+    color: rgba(255,255,255,0.75);
 }
 
 .output{
