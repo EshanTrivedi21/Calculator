@@ -1,0 +1,20 @@
+{
+    "short_name": "Calculator",
+    "name": "The Calculator",
+    "lang": "en",
+    "description": "The Attractive yet Useful Calculator",
+    "start_url": "/",
+    "theme_color" : "#f69435",
+    "background_color" : "#f69435",
+    "scope" : "/",
+    "dir": "standalone",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "prefer_related_applications": false
+}
